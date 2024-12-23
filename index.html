@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For Title  -->
+    <title>Home / X</title>
+
+    <!-- For favicon  -->
+    <link rel="shortcut icon" href="https://x.com/favicon.ico" type="image/x-icon">
+
+    <!-- For Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For Css  -->
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-black text-white">
+    <div class=" flex mx-auto">
+        <div class="first w-16 md:w-[70%]">
+            <div class="sidebar flex md:items-end flex-col sticky top-0">
+                <div class="logo invert my-4 self-start mx-4 md:mx-16">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="flex flex-col text-2xl md:px-11 font-semibold w-full">
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-house"></i><span class="hidden md:block text-xl">Home</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-magnifying-glass"></i><span
+                            class="hidden md:block font-normal text-xl">Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-bell"></i><span class="hidden md:block text-xl">Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-message"></i><span class="hidden md:block text-xl">Messages</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-regular fa-bookmark"></i><span class="hidden md:block text-xl">Bookmark</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-user"></i><span class="hidden md:block text-xl">Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit px-2 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-brands fa-x-twitter"></i><span class="hidden md:block text-xl">Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit px-2 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-solid fa-bolt-lightning"></i><span class="hidden md:block text-xl">Verified
+                            Orgs</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit px-2 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-regular fa-user"></i><span class="hidden md:block text-xl">Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-center md:justify-start items-center md:w-fit px-2 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer p-6">
+                        <i class="fa-regular fa-circle-dot"></i><span class="hidden md:block text-xl">More</span>
+                    </li>
+                    <li>
+                        <div class="button w-full text-center my-4 flex justify-start">
+                            <button
+                                class="bg-white hidden md:block text-black text-xl px-20 rounded-full py-2 font-bold text-lg">Post</button>
+                        </div>
+                        <div class="button w-full text-center my-4 ">
+                            <button class="bg-white text-black text-xl px-3 rounded-full py-2 md:hidden">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="userprofile w-full mt-10 justify-end md:block hidden md:px-11">
+                    <div
+                        class="item px-4 p-3 flex gap-2 items-center justify-end rounded-full w-fit hover:bg-gray-800 hover:cursor-pointer">
+                        <div class="p1">
+                            <img class="p-1 w-10 h-10 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1683177920083140609/gVJ1uV7D_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="p2 mx-3">
+                            <div>Ayush</div>
+                            <div class="username text-gray-500">@ayush</div>
+                        </div>
+                        <div class="p3 text-3xl">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second w-full border-[1px] border-x-gray-500 border-y-black">
+            <div class="top flex p-3 sticky top-0 bg-black">
+                <div class="absolute w-10 h-1 bg-blue-700 bottom-0 left-[23%] rounded-full"></div>
+                <div class="left w-1/2 flex justify-center font-bold text-lg">For You</div>
+                <div class="right w-1/2 flex justify-center font-bold">Following</div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
+            <div class="whatishapp flex gap-3">
+                <div class="img m-2 w-16">
+                    <img src="https://pbs.twimg.com/profile_images/1683177920083140609/gVJ1uV7D_bigger.jpg"
+                        alt="profile-pic" class="rounded-full m-2">
+                </div>
+                <div class="w-full">
+                    <input class="w-full bg-black text-white my-5 outline-none text-xl" type="text"
+                        placeholder="What's happening?">
+                    <div class="text-blue-500 flex items-center gap-2 w-full my-1">
+                        <i class="fa-solid fa-globe"></i>
+                        <span class="font-bold">Everyone can reply</span>
+                    </div>
+                    <div class="w-[95%] h-[0.2px] bg-gray-400 my-3"></div>
+                    <div class="mx-4 flex justify-between items-center my-4">
+                        <div class="blueicons flex gap-2 text-blue-500">
+                            <i class="fa-regular fa-image"></i>
+                            <i class="fa-regular fa-image"></i>
+                            <i class="fa-regular fa-image"></i>
+                            <i class="fa-regular fa-image"></i>
+                            <i class="fa-regular fa-image"></i>
+                        </div>
+                        <div class="postbtn">
+                            <button class="bg-white text-black px-5 rounded-full py-2 font-bold text-lg">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post border-[1px] border-y-gray-500 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-full rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="content m-3">
+                            <span class="font-bold hover:underline hover:cursor-pointer">Elon Musk</span> <span
+                                class="text-gray-500">@elonmusk · 7h</span>
+                            <div>Happy to see Arabic translations of the Ramayan and Mahabharat. I compliment Abdullah
+                                Al-Baroun and Abdul Lateef Al-Nesef for their efforts in translating and publishing it.
+                                Their initiative highlights the popularity of Indian culture globally.</div>
+                            <div class="postimg my-4">
+                                <img src="https://pbs.twimg.com/media/GfUnrGbaAAA3SCg?format=jpg&name=small"
+                                    alt="Image">
+                            </div>
+                            <div class="icons flex justify-between text-gray-600 mx-3">
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>685
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>950
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>456
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>9000+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border-[1px] border-y-gray-500 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-full rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="content m-3">
+                            <span class="font-bold hover:underline hover:cursor-pointer">Elon Musk</span> <span
+                                class="text-gray-500">@elonmusk · 7h</span>
+                            <div>Happy to see Arabic translations of the Ramayan and Mahabharat. I compliment Abdullah
+                                Al-Baroun and Abdul Lateef Al-Nesef for their efforts in translating and publishing it.
+                                Their initiative highlights the popularity of Indian culture globally.</div>
+                            <div class="postimg my-4">
+                                <img src="https://pbs.twimg.com/media/GfUnrGbaAAA3SCg?format=jpg&name=small"
+                                    alt="Image">
+                            </div>
+                            <div class="icons flex justify-between text-gray-600 mx-3">
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>685
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>950
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>456
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>9000+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border-[1px] border-y-gray-500 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-full rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="content m-3">
+                            <span class="font-bold hover:underline hover:cursor-pointer">Elon Musk</span> <span
+                                class="text-gray-500">@elonmusk · 7h</span>
+                            <div>Happy to see Arabic translations of the Ramayan and Mahabharat. I compliment Abdullah
+                                Al-Baroun and Abdul Lateef Al-Nesef for their efforts in translating and publishing it.
+                                Their initiative highlights the popularity of Indian culture globally.</div>
+                            <div class="postimg my-4">
+                                <img src="https://pbs.twimg.com/media/GfUnrGbaAAA3SCg?format=jpg&name=small"
+                                    alt="Image">
+                            </div>
+                            <div class="icons flex justify-between text-gray-600 mx-3">
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>685
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>950
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>456
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>9000+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post border-[1px] border-y-gray-500 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-full rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1858316737780781056/kPL61o0F_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="content m-3">
+                            <span class="font-bold hover:underline hover:cursor-pointer">Elon Musk</span> <span
+                                class="text-gray-500">@elonmusk · 7h</span>
+                            <div>Happy to see Arabic translations of the Ramayan and Mahabharat. I compliment Abdullah
+                                Al-Baroun and Abdul Lateef Al-Nesef for their efforts in translating and publishing it.
+                                Their initiative highlights the popularity of Indian culture globally.</div>
+                            <div class="postimg my-4">
+                                <img src="https://pbs.twimg.com/media/GfUnrGbaAAA3SCg?format=jpg&name=small"
+                                    alt="Image">
+                            </div>
+                            <div class="icons flex justify-between text-gray-600 mx-3">
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>685
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>950
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>456
+                                </div>
+                                <div class="icon flex items-center justify-center gap-1">
+                                    <i class="fa-regular fa-thumbs-up"></i>9000+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="third w-full m-3 md:block hidden">
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search"
+                    class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2 ">
+            </div>
+            <div class="whats m-3 w-[70%] py-5 rounded-xl sticky top-0 border border-1 border-gray-800 overflow-auto  ">
+                <h1 class="text-xl font-bold px-3">What's Happening</h1>
+                <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-600">Entertainment · Trending</div>
+                    <div class="font-bold">#alluarjunarrested</div>
+                    <div class="text-sm text-gray-600">40.2K Post</div>
+                </div>
+                <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-600">Trending in India</div>
+                    <div class="font-bold">#jaipuraccident</div>
+                    <div class="text-sm text-gray-600">40.2K Post</div>
+                </div>
+                <div class="item px-4 p-3 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-600">Trending in India</div>
+                    <div class="font-bold">#GameChangerGlobalEvent</div>
+                    <div class="text-sm text-gray-600">49.2K Post</div>
+                </div>
+                <div class="item px-4 p-2 hover:bg-gray-800 cursor-pointer ">
+                    <div class="text-sm text-gray-600">Actors · Trending</div>
+                    <div class="font-bold">#TamannaahBhatia</div>
+                    <div class="text-sm text-gray-600">50.2k Post</div>
+                </div>
+            </div>
+            <div
+                class="who-to-follow py-5 m-3 w-[70%] rounded-xl sticky top-[60vh] border border-1 border-gray-800 overflow-auto">
+                <h1 class="text-xl font-bold px-3">Who to Follow</h1>
+                <div class="item px-4 p-3 flex items-center justify-between hover:bg-gray-800 hover:cursor-pointer">
+                    <div class="flex gap:3r">
+                        <div class="p1">
+                            <img class="p-1 w-10 h-10 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1683177920083140609/gVJ1uV7D_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="p2 mx-3">
+                            <div>Ayush</div>
+                            <div class="username text-gray-500">@ayush</div>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <button class="bg-white text-black px-3 py-2 rounded-full font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="item px-4 p-3 flex items-center justify-between hover:bg-gray-800 hover:cursor-pointer">
+                    <div class="flex gap:3">
+                        <div class="p1">
+                            <img class="p-1 w-10 h-10 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1683177920083140609/gVJ1uV7D_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="p2 mx-3">
+                            <div>Ayush</div>
+                            <div class="username text-gray-500">@ayush</div>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <button class="bg-white text-black px-3 py-2 rounded-full font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="item px-4 p-3 flex items-center justify-between hover:bg-gray-800 hover:cursor-pointer">
+                    <div class="flex gap:3">
+                        <div class="p1">
+                            <img class="p-1 w-10 h-10 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1683177920083140609/gVJ1uV7D_bigger.jpg"
+                                alt="Profile Picture">
+                        </div>
+                        <div class="p2 mx-3">
+                            <div>Ayush</div>
+                            <div class="username text-gray-500">@ayush</div>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <button class="bg-white text-black px-3 py-2 rounded-full font-bold">Follow</button>
+                    </div>
+                </div>
+                <div class="text-blue-800 hover:underline hover:cursor-pointer px-3">Show More</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
